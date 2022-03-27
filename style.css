@@ -1,0 +1,52 @@
+body {
+    background-image: url(./images/alice-in-wonderland-fan-art-painting-lckrc3fj4if0ki6y.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Miss Fajardose', cursive;
+    color: orange;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container, .content, .compImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.compImage {
+    margin-top: 5rem;
+}
+
+img {
+    width: 15rem;
+}
+
+.images {
+    display: flex;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#rock, #paper, #scissors{
+    position: absolute;
+    padding-bottom: 1.5rem;
+    color: #000066;
+}
+#paper{
+padding-right: 1rem;
+}
+
+#scissors {
+    padding-left: 8rem;
+}
